@@ -16,7 +16,7 @@ body {
 
 
 .header{
-  background-color: #F5B4B3;
+  background-color: #262626;
   height: 50px;
   font-size: 1.5rem;
 }
@@ -65,8 +65,12 @@ ul.top_menu {
   width: 100%;
 }
 
+.image_area2{
+  width: 10%;
+}
+
 .side_menu li{
-  background-color: #F5B4B3;
+  background-color: #262626;
   height: 6rem;
   margin-bottom: 10px;
 }
@@ -182,4 +186,25 @@ input[type="submit"] {
   text-align: center;
   vertical-align: middle;
   display: table-cell;
+}
+
+.submit{
+  display       : inline-block;
+ border-radius : 10%;          /* 角丸       */
+ font-size     : 0.3pt;        /* 文字サイズ */
+ text-align    : center;      /* 文字位置   */
+ cursor        : pointer;     /* カーソル   */
+ padding       : 2px 2px;   /* 余白       */
+ background    : #000066;     /* 背景色     */
+ color         : #ffffff;     /* 文字色     */
+ line-height   : 0.5em;         /* 1行の高さ  */
+ transition    : .3s;         /* なめらか変化 */
+ box-shadow    : 7px 7px 9px #666666;  /* 影の設定 */
+ border        : 14px solid #000066;    /* 枠の指定 */
+}
+
+.submit:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #000066;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
 }

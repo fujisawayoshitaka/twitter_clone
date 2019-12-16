@@ -16,7 +16,10 @@
     <%= form.label :content %>
     <%= form.text_field :content %>
   </div>
-  <%= form.submit %>
+  <div class="submit">
+      <%= form.submit "送信"%>
+  </div>
+
 <% end %>
 
 <%= link_to "ブログ一覧画面にもどる", blogs_path %>
